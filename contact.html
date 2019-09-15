@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Välkommen</title>
+    <link rel="stylesheet" href="lol.css">
+  </head>
+  <body>
+    <header>
+      <div class="rubrik"><h1>Välkommen till min sida!</h1></div>
+
+      <nav>
+        <a href="index.html">Index</a>
+        <a href="myWebsite.html">Min Sida</a>
+        <a href="movies.html">Favoritfilmer</a>
+        <a href="links.html">Länkar</a>
+        <a href="contact.html">Kontakt</a>
+      </nav>
+    </header>
+    <form class="textform" action="index.html" method="post">
+      <label >Namn</label><br>
+      <input type="text" name="namn" placeholder="Namn" required><br>
+      <label >Efternamn</label><br>
+      <input type="text" name="namn" placeholder="Efternamn" required><br>
+      <label>e-postadress</label><br>
+      <input type="email" name="mail" placeholder="epost adress" required><br>
+      <label>Vilket kommer land du ifrån?</label><br>
+      <select required>
+        <option value="">Inget land</option>
+        <option value="0">Mexico</option>
+        <option value="1">USA</option>
+        <option value="2">Canada</option>
+        <option value="3">Sverige</option>
+        <option value="4">Norge</option>
+        <option value="5">Ryssland</option>
+        <option value="6">Saudi Arabien</option>
+        <option value="7">Japan</option>
+        <option value="8">Iran</option>
+        <option value="9">Kina</option>
+        <option value="10">Tyskland</option>
+      </select><br>
+      <label>Lämna ett meddelande till mitt företag</label><br>
+      <textarea name="meddelande" rows="12" cols="50" required></textarea><br>
+      <input type="submit" name="Skicka in">
+    </form>
+
+    <footer>
+      <p class="contact">Kontakt:kha.doanchau@gmail.com</p>
+    </footer>
+
+  </body>
+</html>
